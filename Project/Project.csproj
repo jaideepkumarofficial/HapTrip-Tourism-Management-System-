@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D2EDD9EB-FB43-4795-AC8A-F94AEA93C56C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Project</RootNamespace>
+    <AssemblyName>Project</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>C:\Users\SIDHART\Desktop\Itextsharp\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.pdfa">
+      <HintPath>C:\Users\SIDHART\Desktop\Itextsharp\itextsharp.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="Admin_Bangalore.aspx" />
+    <Content Include="Admin_Delhi.aspx" />
+    <Content Include="Admin_Hydrabad.aspx" />
+    <Content Include="Admin_Kolkata.aspx" />
+    <Content Include="Admin_Login.aspx" />
+    <Content Include="Admin_Mumbai.aspx" />
+    <Content Include="Admin_select.aspx" />
+    <Content Include="App_Data\Haptrip.mdf" />
+    <Content Include="App_Data\Haptrip_log.ldf">
+      <DependentUpon>Haptrip.mdf</DependentUpon>
+    </Content>
+    <Content Include="Background\24945-4-register-button-transparent.png" />
+    <Content Include="Background\581e0073b407d5ff7e02a69fd7c90ab9.jpg" />
+    <Content Include="Background\59c4305b54563eb2a7ac1c9b7a33a288.jpg" />
+    <Content Include="Background\ab.jpg" />
+    <Content Include="Background\Backpackers1.jpg" />
+    <Content Include="Background\Customer-experience-concept.jpg" />
+    <Content Include="Background\file-uZIeASRuKL.png" />
+    <Content Include="Background\forget.jpg" />
+    <Content Include="Background\Glass-Screen-Protector-for-Samsung-Galaxy-S8Plus-Black.jpg" />
+    <Content Include="Background\index.png" />
+    <Content Include="Background\panasonic-eluga-ray-600-big-view-display.jpg" />
+    <Content Include="Background\spot.jpg" />
+    <Content Include="Background\SUBMIT-BUTTON.png" />
+    <Content Include="Background\the-leh-ladakh-expedition-ladakh-9kFpFCn-1440x810.jpg" />
+    <Content Include="Background\thin-gray-login-button-hi.png" />
+    <Content Include="Background\thumbnail-iphone11_2x.png" />
+    <Content Include="Background\unnamed.png" />
+    <Content Include="Bangalore.aspx" />
+    <Content Include="Bangalore\b1.jpg" />
+    <Content Include="Bangalore\b2.jpg" />
+    <Content Include="Bangalore\b3.jpg" />
+    <Content Include="Bangalore\b4.jpg" />
+    <Content Include="Bangalore\b5.jpg" />
+    <Content Include="city\bangalore.jpg" />
+    <Content Include="city\Delhi.jpeg" />
+    <Content Include="city\hydrabad.jpg" />
+    <Content Include="city\kolkata.jpg" />
+    <Content Include="city\mumbai.jpg" />
+    <Content Include="css\pikaday.css" />
+    <Content Include="css\site.css" />
+    <Content Include="css\theme.css" />
+    <Content Include="css\triangle.css" />
+    <Content Include="Delhi.aspx" />
+    <Content Include="Delhi\d1.jpg" />
+    <Content Include="Delhi\d2.jpg" />
+    <Content Include="Delhi\d3.jpg" />
+    <Content Include="Delhi\d4.jpg" />
+    <Content Include="Delhi\d5.jpg" />
+    <Content Include="Front.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="Hydrabad.aspx" />
+    <Content Include="Hydrabad\1.jpg" />
+    <Content Include="Hydrabad\2.jpg" />
+    <Content Include="Hydrabad\3.jpg" />
+    <Content Include="Hydrabad\4.jpg" />
+    <Content Include="Hydrabad\5.jpg" />
+    <Content Include="image\1.PNG" />
+    <Content Include="image\10.png" />
+    <Content Include="image\11.png" />
+    <Content Include="image\12.png" />
+    <Content Include="image\2.PNG" />
+    <Content Include="image\3.PNG" />
+    <Content Include="image\4.PNG" />
+    <Content Include="image\5.png" />
+    <Content Include="image\586abf6db6fc1117b60b2753.png" />
+    <Content Include="image\6.png" />
+    <Content Include="image\7.png" />
+    <Content Include="image\8.png" />
+    <Content Include="image\9.jpg" />
+    <Content Include="image\9.png" />
+    <Content Include="image\c.PNG" />
+    <Content Include="image\calendar-icon.png" />
+    <Content Include="image\download.png" />
+    <Content Include="image\pay.png" />
+    <Content Include="image\print.png" />
+    <Content Include="image\sum.png" />
+    <Content Include="jsfiles\html2canvas.min.js" />
+    <Content Include="jsfiles\pdfmake.min.js" />
+    <Content Include="Kolkata.aspx" />
+    <Content Include="Kolkata\k1.jpg" />
+    <Content Include="Kolkata\k2.jpg" />
+    <Content Include="Kolkata\k3.jpg" />
+    <Content Include="Kolkata\k4.jpg" />
+    <Content Include="Kolkata\k5.jpg" />
+    <Content Include="Logout.aspx" />
+    <Content Include="logo\bangalore.jpg" />
+    <Content Include="logo\delhi.PNG" />
+    <Content Include="logo\hydrabad.jpg" />
+    <Content Include="logo\kolkata.jpg" />
+    <Content Include="logo\mumbai.PNG" />
+    <Content Include="Mumbai.aspx" />
+    <Content Include="Mumbai\m1.jpg" />
+    <Content Include="Mumbai\m2.jpg" />
+    <Content Include="Mumbai\m3.jpg" />
+    <Content Include="Mumbai\m4.jpg" />
+    <Content Include="Mumbai\m5.jpg" />
+    <Content Include="Pay_Ban.aspx" />
+    <Content Include="Pay_Invoice.aspx" />
+    <Content Include="pikaday.js" />
+    <Content Include="Report.aspx" />
+    <Content Include="Report1.aspx" />
+    <Content Include="Select_City.aspx" />
+    <Content Include="Signout.aspx" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="term.aspx" />
+    <Content Include="Terms_Conditions.aspx" />
+    <Content Include="User_Forget.aspx" />
+    <Content Include="User_Registration.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Bangalore.aspx.cs">
+      <DependentUpon>Admin_Bangalore.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Bangalore.aspx.designer.cs">
+      <DependentUpon>Admin_Bangalore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Delhi.aspx.cs">
+      <DependentUpon>Admin_Delhi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Delhi.aspx.designer.cs">
+      <DependentUpon>Admin_Delhi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Hydrabad.aspx.cs">
+      <DependentUpon>Admin_Hydrabad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Hydrabad.aspx.designer.cs">
+      <DependentUpon>Admin_Hydrabad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Kolkata.aspx.cs">
+      <DependentUpon>Admin_Kolkata.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Kolkata.aspx.designer.cs">
+      <DependentUpon>Admin_Kolkata.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Login.aspx.cs">
+      <DependentUpon>Admin_Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Login.aspx.designer.cs">
+      <DependentUpon>Admin_Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Mumbai.aspx.cs">
+      <DependentUpon>Admin_Mumbai.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Mumbai.aspx.designer.cs">
+      <DependentUpon>Admin_Mumbai.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_select.aspx.cs">
+      <DependentUpon>Admin_select.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_select.aspx.designer.cs">
+      <DependentUpon>Admin_select.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bangalore.aspx.cs">
+      <DependentUpon>Bangalore.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bangalore.aspx.designer.cs">
+      <DependentUpon>Bangalore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Delhi.aspx.cs">
+      <DependentUpon>Delhi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Delhi.aspx.designer.cs">
+      <DependentUpon>Delhi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Front.aspx.cs">
+      <DependentUpon>Front.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Front.aspx.designer.cs">
+      <DependentUpon>Front.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>html.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Hydrabad.aspx.cs">
+      <DependentUpon>Hydrabad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hydrabad.aspx.designer.cs">
+      <DependentUpon>Hydrabad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Kolkata.aspx.cs">
+      <DependentUpon>Kolkata.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Kolkata.aspx.designer.cs">
+      <DependentUpon>Kolkata.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mumbai.aspx.cs">
+      <DependentUpon>Mumbai.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mumbai.aspx.designer.cs">
+      <DependentUpon>Mumbai.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pay_Ban.aspx.cs">
+      <DependentUpon>Pay_Ban.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pay_Ban.aspx.designer.cs">
+      <DependentUpon>Pay_Ban.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pay_Invoice.aspx.cs">
+      <DependentUpon>Pay_Invoice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pay_Invoice.aspx.designer.cs">
+      <DependentUpon>Pay_Invoice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report.aspx.cs">
+      <DependentUpon>Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report.aspx.designer.cs">
+      <DependentUpon>Report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report1.aspx.cs">
+      <DependentUpon>Report1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report1.aspx.designer.cs">
+      <DependentUpon>Report1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Select_City.aspx.cs">
+      <DependentUpon>Select_City.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Select_City.aspx.designer.cs">
+      <DependentUpon>Select_City.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Signout.aspx.cs">
+      <DependentUpon>Signout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Signout.aspx.designer.cs">
+      <DependentUpon>Signout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="term.aspx.cs">
+      <DependentUpon>term.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="term.aspx.designer.cs">
+      <DependentUpon>term.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terms_Conditions.aspx.cs">
+      <DependentUpon>Terms_Conditions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terms_Conditions.aspx.designer.cs">
+      <DependentUpon>Terms_Conditions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User_Forget.aspx.cs">
+      <DependentUpon>User_Forget.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User_Forget.aspx.designer.cs">
+      <DependentUpon>User_Forget.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User_Registration.aspx.cs">
+      <DependentUpon>User_Registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User_Registration.aspx.designer.cs">
+      <DependentUpon>User_Registration.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="html.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>html.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="html.dbml.layout">
+      <DependentUpon>html.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>31927</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
